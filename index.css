@@ -1,0 +1,68 @@
+body {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("legolas.jpeg");
+    background-size: cover;
+     font-family: "Bilbo", cursive;
+  font-weight: bolder;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:mediumturquoise;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background:mediumturquoise;
+     font-family: "Bilbo", cursive;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+#save-btn {
+    background:teal;
+     font-family: "Bilbo", cursive;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.container {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      height: 100vh;
+    margin: auto;
+}
+
+p {
+    font-size: 30px;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
